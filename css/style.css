@@ -1,10 +1,10 @@
 /* reset browser css */
-/*
+
 * {  margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-*/
+
 /* main */
 html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,7 +14,7 @@ a {
     /* color:white; */
     text-decoration: none;
 }
-h1 {
+h1, h2 {
     padding-bottom: 20px; 
 }
 
@@ -26,11 +26,40 @@ h1 {
     padding: 0 20px;
     overflow: auto;
     }
+.text-primary { 
+        color: #db8bf6;
+
+     }
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    background: #333;
+    color: #fff;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    }
+.btn:hover {
+    background: #dc8af7;
+    color: #333;
+    }
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+    }
+.bg-dark {
+    background: #333;
+    color: #fff;
+    }
+        
 
 
 /* navbar */
-#navbar div {
+#navbar {
     background: #333;
+}
+
+#navbar div {
     /* color: #fff; */
     overflow: auto;
 }
@@ -57,3 +86,43 @@ float: left;
     padding-top: 20px;
     float: left;
     }
+
+    /* showcase */
+    #showcase {
+        background: url('../images/showcase.jpg') no-repeat center center/cover;
+        height: 600px;
+}
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p {
+    padding-bottom: 21px;
+    line-height: 1.7em;
+}
+/* info*/
+#info { height: 400px;
+    }
+
+    #info .info-content {
+        float: right;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        padding: 50px 30px;
+        overflow: hidden;
+        }
+        #info .info-content p {
+            padding-bottom: 30px;
+        }
+        #info .info-img {
+            float: left;
+            width: 50%;
+            background: url('../images/photo-1.jpg') no-repeat;
+            min-height: 100%;
+            }
