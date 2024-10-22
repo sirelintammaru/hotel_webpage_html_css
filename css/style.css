@@ -13,7 +13,7 @@ body {
   line-height: 1.7em;
 }
 a {
-  /* color:white; */
+ color:white; 
   text-decoration: none;
 }
 h1,
@@ -68,10 +68,16 @@ h3 {
 /* navbar */
 #navbar {
   background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
 }
 
 #navbar div {
-  /* color: #fff; */
+ color: #fff; 
   overflow: auto;
 }
 #navbar div a {
@@ -113,7 +119,7 @@ h3 {
   line-height: 1.2em;
 }
 #showcase .showcase-content p {
-  padding-bottom: 21px;
+  padding-bottom: 20px;
   line-height: 1.7em;
 }
 /* info*/
