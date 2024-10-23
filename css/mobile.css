@@ -34,7 +34,8 @@
   width: 100%;
 }
 /* about */
-#about-info .info-left #about-info .info-right {
+#about-info .info-left,
+#about-info .info-right {
   float: none;
   width: 100%;
 }
